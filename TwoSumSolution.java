@@ -6,6 +6,8 @@ public class TwoSumSolution {
 		// input for nums and target
 	    int [] nums = {3,2,4};
 		int target = 6;
+		System.out.println("List: [" + nums[0] + "," +nums[1] + "," +nums[2] + "]");
+		System.out.println("Target: " + target + "\n");
 		
 		// Getting the bruteForce solution
 		BruteForceSolution object = new BruteForceSolution();
