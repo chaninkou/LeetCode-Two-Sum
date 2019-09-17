@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class FindTwoSumFunction {
 	public int[] twoSum(int[] nums, int target){
+		// This hold two element, one is the start index, and the other is end index
 		int[] result = new int[2];
 		
 		Map<Integer, Integer> map = new HashMap<>();

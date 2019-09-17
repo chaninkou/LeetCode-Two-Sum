@@ -7,8 +7,9 @@ class OnePassHashTableSolution
 {
     public int[] twoSum(int[] nums, int target)
     {
+    	// Take the value as key and index as value
         Map<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i <nums.length; i++)
+        for(int i = 0; i < nums.length; i++)
         {
             int answer = target - nums[i];
             // Look back to check if current element's complement already exists in the table

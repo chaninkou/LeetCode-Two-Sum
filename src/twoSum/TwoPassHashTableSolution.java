@@ -13,6 +13,8 @@ class TwoPassHashTableSolution
         {
             map.put(nums[i],i);
         }
+        
+        // You could actually do this in one pass instead, no need for two for loop
         for(int i = 0; i <nums.length; i++)
         {
             int answer = target - nums[i];
