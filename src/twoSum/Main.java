@@ -7,13 +7,6 @@ import java.util.Set;
 public class Main {
 	public static void main(String[] args)
 	{
-		Set<Integer> set = new HashSet<>();
-		set.add(2);
-		
-		for(Integer s : set){
-			System.out.println(s);
-		}
-		
 		// input for nums and target
 	    int [] nums = {3,2,4};
 		int target = 6;
