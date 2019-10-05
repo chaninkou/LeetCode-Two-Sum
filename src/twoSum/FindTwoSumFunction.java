@@ -11,7 +11,7 @@ public class FindTwoSumFunction {
 		Map<Integer, Integer> map = new HashMap<>();
 		
 		for(int i = 0; i < nums.length; i++){
-			
+			// Using answer and check if a key contain it, if it does we know they are the two sum
 			int answer = target - nums[i];
 			
 			if(map.containsKey(answer)){
