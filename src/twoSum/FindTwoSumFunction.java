@@ -12,9 +12,10 @@ public class FindTwoSumFunction {
 		Map<Integer, Integer> map = new HashMap<>();
 		
 		for(int i = 0; i < nums.length; i++){
-			// Using answer and check if a key contain it, if it does we know they are the two sum
+			// The thing we trying to find the target - current element
 			int answer = target - nums[i];
 			
+			// If the map contains the answer, then return right away
 			if(map.containsKey(answer)){
 				// Return the index when the element was stored
 				result[0] = map.get(answer);
