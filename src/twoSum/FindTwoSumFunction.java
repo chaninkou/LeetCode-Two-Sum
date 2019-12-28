@@ -8,7 +8,7 @@ public class FindTwoSumFunction {
 		// This hold two elements, one is the start index, and the other is end index
 		int[] result = new int[2];
 		
-		// Using hashmap
+		// Using hashmap, to store each visited element as key and index as value
 		Map<Integer, Integer> map = new HashMap<>();
 		
 		for(int i = 0; i < nums.length; i++){

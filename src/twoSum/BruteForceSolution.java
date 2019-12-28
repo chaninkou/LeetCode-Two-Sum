@@ -5,6 +5,8 @@ package twoSum;
 // of array which takes O(n) time. Therefore, the time complexity is O(n^2)
 
 // Space complexity : O(1).
+
+// First thing come in mind is brute force with 
 class BruteForceSolution {
     public int[] twoSum(int[] nums, int target) 
     {

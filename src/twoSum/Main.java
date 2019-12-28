@@ -9,7 +9,7 @@ public class Main {
 	{
 		// input for nums and target
 	    int [] nums = {3,2,4};
-		int target = 6;
+		int target = 10;
 		System.out.println("Input: " + Arrays.toString(nums));
 		System.out.println("Target: " + target + "\n");
 		
@@ -37,5 +37,9 @@ public class Main {
 		FindTwoSumFunction solution = new FindTwoSumFunction();
 		
 		System.out.println("Solution: " + Arrays.toString(solution.twoSum(nums, target)));
+		
+		if(!Arrays.toString(solution.twoSum(nums, target)).equals("[0, 0]")){
+			System.out.println("Actual value: " + nums[solution.twoSum(nums, target)[0]] + " + " + nums[solution.twoSum(nums, target)[1]] + " = " + target);
+		}
 	}
 }
