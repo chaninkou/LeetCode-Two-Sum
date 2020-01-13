@@ -20,7 +20,7 @@ public class FindTwoSumFunction {
 				// Return the index when the element was stored
 				result[0] = map.get(answer);
 				
-				// Getting the index of the element when it contains the answer
+				// Since i will be the ending index of the solution
 				result[1] = i;
 				
 				return result;
