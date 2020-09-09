@@ -1,4 +1,4 @@
-package twoSum;
+package leetcode1;
 // Loop through each element i and j to find if there is a target that is equal to i + j
 
 // Time complexity : O(n^2)For each element, we try to find its complement by looping through the rest 
